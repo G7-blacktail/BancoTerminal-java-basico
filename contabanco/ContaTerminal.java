@@ -20,6 +20,8 @@ public class  ContaTerminal {
             if(agenciaUsuario.equals(agencia) && contaUsuario == numero) System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta  " + numero + " e seu saldo R$" + saldo + " e já está disponível para saque.");
             else System.out.println("Você ainda não é cliente deste banco, abra uma conta agora e aproveite para investir em nosso CDB");
 
+    
+
         cliente.close();
     }
 }
